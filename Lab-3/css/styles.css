@@ -1,0 +1,196 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color:lavender;
+    padding:2% 12%;
+    padding-bottom: 15%;
+   
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Varela', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 5%;
+
+}
+
+h3 {
+    font-family: 'Varela', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+    color:blueviolet;
+}
+
+p {
+    color: black;
+    text-align:center;
+}
+
+h2 {
+    font-family: 'Varela', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+button {
+    text-align: center;
+    font-family: 'Varela';
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navigation Bar*/
+
+.navbar-brand {
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Varela', sans-serif;
+    color:  navy !important;
+    font-weight:bold;    
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding:5%;
+}
+
+.feat {
+    color:navy;
+}
+
+.icon {
+    color: purple;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(94, 5, 90);
+}
+
+/* Testimonials */
+#testimonials {
+
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(189, 219, 231);
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 15%;
+    margin-top: 5%;
+}
+
+
+
+/* Press */
+
+#press{
+    background-color: rgb(189, 219, 231);
+    text-align: center;
+}
+
+.press {
+    width: 10%;
+    margin: 5% 5%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 7% 15%;;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    text-align:center;
+    color: navy;
+}
+
+.price {
+    color: blueviolet;
+}
+
+/* Call to Action */
+
+#cta {
+    color: white;
+    padding: 7% 15%;
+    background-color: rgb(189, 219, 231);
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Varela';
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: navy;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    padding: 5% 15%;
+    text-align: center;
+
+}
+
+.social {
+    margin: 20px 10px;
+}
+
+.download-button {
+    margin-top: 2%;
+}
+
+
+
+/* Media Query Section */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
